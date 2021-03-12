@@ -16,20 +16,18 @@
     <div class="container center">
     <h2>Exercise 3</h2>
     <div class="row">
-    <div class='col-12'><h3>Part 1</h3></div>
+        <section class='col-12' height='300'><p>Site Banner (Logo etc.)</p></section>
     </div>
     <div class="row">
-    <div class='col-md-2 col-sm-6 col-xs-12'><h3>Grooming</h3><p>Our</p></div>
-    <div class='col-lg-2 col-md-4 col-sm-6 col-xs-12'><h3>GeneralHealth</h3><p>We offer special</p></div>
-    
-    <div class='col-lg-2 col-md-4 col-sm-6 col-xs-12'><h3>Nutrition</h3><p>Let out nutrition experts review your pet's det and prescrite a custom nutrition plan for optimum health and disesse prevention.</p></div>
-    <div class='col-lg-2 col-md-4 col-sm-6 col-xs-12'><h3>Pest Control</h3><p>We offer the latest advances in safe and effcetve prevention and treatment of sicks, wigrra, heat worm, and other parastes.</p></div>
-    <div class='col-lg-2 col-md-4 col-sm-6 col-xs-12'><h3>Vaccinations</h3><p>Our vaccinations are experiences in modern vaccination protocals that prevert many of the deadest diseasses in pets.</p></div>
+        <section class='col-md-3 col-sm-12'>
+        <div class="row">
+            <div class='col-md-12 col-sm-4' height='80'>Menu Item 1</div>
+            <div class='col-md-12 col-sm-4' height='80'>Menu Item 2</div>
+            <div class='col-md-12 col-sm-4' height='80'>Menu Item 3</div>
+        </div>
+        </section>
+        <section class='col-md-9 col-12' height='300'>Random Site Content</section>
     </div>
-    
-    <?php
-    echo"<>";
-    ?>
 
 </body>
 
