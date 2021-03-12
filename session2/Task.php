@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
     <title>Bootstrap Exercise 3</title>
     <meta charset="utf-8">
@@ -14,10 +15,10 @@
 
     <style>
         .bannerHeighth{
-            height: 300px;
+            height: 100px;
         }
         .menuItems{
-            height: 80px;
+            height: 35px;
         }
         .siteContent{
             height: 300px;
