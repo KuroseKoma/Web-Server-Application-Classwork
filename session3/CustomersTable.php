@@ -1,11 +1,12 @@
 
 <html>
 <head>
-<title>Test Connection</title>
+<title>Customers Table</title>
 </head>
 
 
 <body>
+<h3>Customers Table</h3>
 <?php
   $servername = "localhost";
   $dbusername = "root";
@@ -19,11 +20,24 @@
   
   $sql = "SELECT * FROM customers";
   $result = mysqli_query($conn, $sql);
+  echo "<table>";
+  echo "<thead>
+            <tr>
+            <th>Surname</th>
+            <th>City</th>
+            <th>Country</th>
+            </tr>
+        </thead>";
   if (mysqli_num_rows($result) > 0){
       while ($row = mysqli_fetch_assoc($result)){
-          echo $row['customerName']."<br>";
+          echo "<tr>
+                    <td>".$row['contactLastName']."</td>
+                    <td>".$row['city']."</td>
+                    <td>".$row['country']."</td>
+                </tr>";
       }
   }
+  echo "</table>"
 ?>
 
 </body>
