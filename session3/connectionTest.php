@@ -17,11 +17,11 @@
     die("Sorry, connection failed" . $conn->connect_error);
   }
   
-  $spl = "SELECT * FROM customers";
+  $sql = "SELECT * FROM customers";
   $result = mysqli_query($conn, $sql);
   if (mysqli_num_rows($result) > 0){
       while ($row = mysqli_fetch_assoc($result)){
-          echo $row['customerNumber']."<br>";
+          echo $row['customerName']."<br>";
       }
   }
 ?>
