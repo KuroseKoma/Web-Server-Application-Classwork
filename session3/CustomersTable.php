@@ -8,7 +8,7 @@
 <body>
 <h3>Customers Table</h3>
 <?php
-  $servername = "localhost";
+  /*$servername = "localhost";
   $dbusername = "root";
   $dbpassword = "";
   $dbname = "classicmodels";
@@ -16,7 +16,8 @@
   mysqli_set_charset($conn,"utf8");
   if ($conn->connect_error) {
     die("Sorry, connection failed" . $conn->connect_error);
-  }
+  }*/
+  require "config.php";
   
   $sql = "SELECT * FROM customers";
   $result = mysqli_query($conn, $sql);
