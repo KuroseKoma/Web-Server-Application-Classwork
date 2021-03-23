@@ -1,6 +1,6 @@
 <div class='row'>
 				<div class='col-12 Head2'>
-					<img src='images/pikachu.png' height='100px'>
+					<img class='imgpart' src='images/pikachu.png' height='100px'><h1 class='center'>Pokemon Center</h1>
 				</div>
 		</div>
 		<div class='row'>
@@ -9,7 +9,7 @@
 	  <!-- Links -->
 	  <ul class="navbar-nav">
 	    <li class="nav-item">
-	      <a class="nav-link" href="read.php">Home</a>
+	      <a class="nav-link" href="index.php">Home</a>
 	    </li>
 	    <li class="nav-item">
 	      <a class="nav-link" href="create.php">Add a Pokemon</a>
