@@ -7,3 +7,4 @@ An API is structured and usually well decumented
 4 basic request methods:
 get put post delete
 ##
+A REST API (also known as RESTful API) is an application programming interface (API or web API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services. REST stands for representational state transfer
