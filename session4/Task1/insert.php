@@ -10,9 +10,9 @@
 
 
     $post_data = $_POST["name"]."','".$_POST["addrress"]."','".$_POST["town"]."','".$_POST["country"]."','".$_POST["tel"];
-    $sql = "INSERT INTO `customers`(`title`,`categories`,`developer`,`publisher`,`releaseDate`,`about`,`bio`,`platform`,`requirement`,`language`,`purchaseLink`) VALUES('$post_data1','$post_data2')";
+    $sql = "INSERT INTO `customers`(`cust_name`,`address_line1`,`town`,`country`,`Tel`) VALUES('$post_data')";
 
-    if ($connection->query($sql) === TRUE) {
+    if ($conn->query($sql) === TRUE) {
       echo "New record created successfully";
     }else {
       echo "Error: ". $sql ."<br>". $conn->error;

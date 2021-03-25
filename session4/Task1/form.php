@@ -20,7 +20,7 @@
             
             <label>Name: </label><input type="text" name="name" required/><br>
             <label>Address: </label><input type="text" name="addrress" maxlength="50" required/><br>
-            <label>Town: </label><input type="date" name="town" maxlength="50" required/><br>
+            <label>Town: </label><input type="text" name="town" maxlength="50" required/><br>
             <label>Country: </label><input type="text" name="country" maxlength="50" required/><br>
             <label>Tel: </label><input type="number" name="tel" maxlength="15" required /><br>
         

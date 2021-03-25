@@ -2,7 +2,7 @@
   $servername = "localhost";
   $dbusername = "root";
   $dbpassword = "";
-  $dbname = "s4-task";
+  $dbname = "s4_task";
 
   $conn = new mysqli($servername, $dbusername, $dbpassword, $dbname);
   mysqli_set_charset($conn,"utf8");
